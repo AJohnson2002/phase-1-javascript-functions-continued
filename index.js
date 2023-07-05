@@ -7,7 +7,7 @@ function mondayWork(activity = "go to the office"){
     return `This Monday, I will ${activity}.`;
 }
 function wrapAdjective(string = "*"){
-    return function(parameter = "a hard worker"){
+    return function(parameter = "special"){
         return `You are ${string}${parameter}${string}!`;
     }
 }
